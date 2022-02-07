@@ -7,11 +7,9 @@ label z1miky:
 label z1m_prologue:
     th "Я раздумывал над тем, чтобы сменить моё имя."
     $ player_name = renpy.input("Как же мне тогда тебя звать?")
-    $ player_name = player_name.strip()
-
+    $ player_name = player_name.strip()    
     if player_name == "":
-        $ player_name = "Артём"
-
+        $ player_name = "Артём"    
     th "[player_name], вроде звучит прикольно!"
 
 label z1m_day1:
