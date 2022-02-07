@@ -1,6 +1,7 @@
 init:
     $ mods["z1miky"]=u"Неделя с Мику"
     
+	
 label z1miky:
     $ sunset_time()
     play music music_list["no_tresspassing"]
@@ -31,6 +32,8 @@ label z1miky:
         "Уебать её с ноги":
             "Ей это явно не понравилось"
         "Послать нахуй":
+            "Ей это явно не понравилось"
+		"Послать":
             "Ей это явно не понравилось"
     show mi cry pioneer at center with dissolve
     mi "Я-я ж-же просто хотел-ла познакомьтся..." 
