@@ -17,4 +17,4 @@ label z1m_prologue:
 label z1m_day1:
     $ sunset_time()
     play music music_list["no_tresspassing"]
-    scene bg int_bus 
+    scene bg int_bus
